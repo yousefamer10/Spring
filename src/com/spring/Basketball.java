@@ -1,4 +1,4 @@
-package main;
+package com.spring;
 
 public class Basketball implements Sports {
 
