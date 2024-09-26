@@ -8,9 +8,9 @@ public class MainApp {
 		
 		ClassPathXmlApplicationContext context= new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		
-		MasterInterface mastername =context.getBean("master",MasterInterface.class);
+		MasterInterface1 mastername =context.getBean("master",MasterInterface1.class);
 		
-		mastername.name();
+		mastername.callsport();
 		context.close();
 	}
 
